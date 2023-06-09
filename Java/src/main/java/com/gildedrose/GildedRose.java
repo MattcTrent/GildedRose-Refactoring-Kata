@@ -23,7 +23,7 @@ class GildedRose {
             {
                 if (item.quality < 50) 
                 {
-                    item.quality += 1;
+                    IncreaseQuality(item);
 
                     if (item.name.equals(backStagePass)) 
                     {
